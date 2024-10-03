@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(9, auto);
+        }
+        .con div{
+            border: 2px solid white;
+        }
+        .a1{
+            grid-area: 1/1/2/10;
+            background-color: rgb(235, 133, 60);
+        }
+        .a2{
+            grid-area: 2/1/7/4;
+            background-color: rgb(75, 218, 23)
+        }
+        .a3{
+            grid-area: 2/4/4/8;
+            background-color: lightblue;
+        }
+        .a4{
+            grid-area: 2/8/6/10;
+            background-color: aquamarine;
+        }
+        .a5{
+            grid-area: 4/4/6/6;
+            background-color: darkgreen;
+        }
+        .a6{
+            grid-column: 6/8;
+            background-color: rgb(91, 230, 76);
+        }
+        .a7{
+            grid-column: 6/8;
+            background-color: violet;
+        }
+        .a8{
+            grid-area: 6/4/7/9;
+            background-color: rgb(214, 82, 82);
+        }
+        .a9{
+            background-color: blueviolet;
+        }
+        .a10{
+            grid-column: 1/10;
+            background-color: rgb(255, 191, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="a1">1</div>
+        <div class="a2">2</div>
+        <div class="a3">3</div>
+        <div class="a4">4</div>
+        <div class="a5">5</div>
+        <div class="a6">6</div>
+        <div class="a7">7</div>
+        <div class="a8">8</div>
+        <div class="a9">9</div>
+        <div class="a10">10</div>
+    </div>
+</body>
+</html>
